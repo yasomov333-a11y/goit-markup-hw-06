@@ -81,7 +81,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
-    row-gap: 48px;
+    row-gap: 72px;
   }
 
   .portfolio-card {
@@ -90,6 +90,10 @@
 }
 
 @media (min-width: 1158px) {
+  .portfolio-list {
+    row-gap: 48px;
+  }
+
   .portfolio-card {
     width: calc((100% - 48px) / 3);
   }

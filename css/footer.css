@@ -150,6 +150,11 @@
     gap: 24px;
   }
 
+  .subscribe-input {
+    width: 264px;
+    max-width: none;
+  }
+
   .subscribe-button {
     margin: 0;
   }
@@ -171,10 +176,6 @@
 
   .footer-info {
     margin-right: 120px;
-  }
-
-  .footer-social {
-    margin-right: 80px;
   }
 
   .footer-subscribe {

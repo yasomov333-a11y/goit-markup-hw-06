@@ -165,13 +165,14 @@
     padding: 100px 0;
   }
 
-  .footer-container {
+    .footer-container {
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: flex-start;
-    align-items: flex-start;
-    max-width: none;
-    margin: 0;
+    row-gap: 72px;
+    column-gap: 24px;
+    max-width: 584px;
+    margin: 0 auto;
   }
 
   .footer-info {

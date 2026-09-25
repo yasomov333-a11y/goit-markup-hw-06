@@ -6,8 +6,6 @@
   height: 100vh;
   padding: 72px 24px 40px;
   background-color: var(--color-white);
-  display: flex;
-  flex-direction: column;
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -22,6 +20,12 @@
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+}
+
+.mobile-menu-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 
 .mobile-menu-close {
@@ -80,7 +84,9 @@
 }
 
 .mobile-contacts {
-  margin: 40px 0 48px;
+  margin-top: auto;
+  margin-bottom: 48px;
+  padding-top: 40px;
 }
 
 .mobile-contacts-list {
@@ -103,7 +109,6 @@
 
 .mobile-social-list {
   display: flex;
-  justify-content: center;
   gap: 40px;
 }
 

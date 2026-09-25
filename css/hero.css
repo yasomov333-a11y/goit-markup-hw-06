@@ -18,7 +18,7 @@
 }
 
 .hero-title {
-  max-width: 280px;
+  max-width: 216px;
   margin: 0 auto 72px auto;
   font-size: 36px;
   font-weight: 700;
@@ -68,8 +68,9 @@
 
   .hero-title {
     max-width: 496px;
-    font-size: 48px;
-    line-height: 1.11;
+    margin-bottom: 36px;
+    font-size: 56px;
+    line-height: 1.07;
   }
 }
 
@@ -86,12 +87,5 @@
         url("../images/hero-bg-desktop.jpg") 1x,
         url("../images/hero-bg-desktop-2x.jpg") 2x
       );
-  }
-
-  .hero-title {
-    max-width: 496px;
-    margin-bottom: 48px;
-    font-size: 56px;
-    line-height: 1.07;
   }
 }

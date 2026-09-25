@@ -167,9 +167,11 @@
 
   .footer-container {
     flex-wrap: nowrap;
+    justify-content: flex-start;
     align-items: flex-start;
     column-gap: 0;
     max-width: 1158px;
+    margin: 0 auto;
   }
 
   .footer-info {

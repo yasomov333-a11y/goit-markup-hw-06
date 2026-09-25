@@ -88,4 +88,8 @@
         url("../images/hero-bg-desktop-2x.jpg") 2x
       );
   }
+
+  .hero-title {
+    margin-bottom: 48px;
+  }
 }
